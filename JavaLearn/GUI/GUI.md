@@ -55,6 +55,13 @@ this.getContentPane().add(jLabel); // 获取隐藏窗体，并且将JLabel加入
 #### 如何判断坐标
 是以左上角的点为坐标点，xy轴的方向如下：
 ![image.png](https://pic.hibugs.net/NGBTEAM/20250412004803324.png)
+## 细节
+### 细节一
+先加载的图片在上方，后加载的图片在下方
+### 细节二
+相对路径是以项目文件夹为起点，而不是当前.java文件，如下图，我要读取这个1.jpg的图片，应该是一puzzlegame为起点，puzzlegame下的image下的animal1下的1.jpg —— `image/animal/animal1/1.jpg`
+![image.png](https://pic.hibugs.net/NGBTEAM/20250416103714307.png)
+
 # 事件
 事件源：按钮、图片、窗体...
 	- 被操作的组件
