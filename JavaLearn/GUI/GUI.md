@@ -13,6 +13,11 @@
 4. 把`JMenuItem`放到`JMenu`里面
 5. 再把`JMenu`放到`JMenuBar`里面
 6. 最后再把JMenuBar添加到整个JFrame界面中
+## 特点
+如果想要是实现这种类似的功能的话
+![image.png](https://pic.hibugs.net/NGBTEAM/20250421150301.png?imageSlim)
+就可以在`功能`这个JMenu中嵌套一个更换图片的JMenu，这个更换图片下面的美女、动物、运动才是真正的JMenuItem
+
 # JLabel管理区域
 JLabel可以想象成是一个管理者，他可以管理：图片、文字
 	- 类似于div
